@@ -14,8 +14,9 @@ Step by step
 ```
 wget  https://github.com/vrana/adminer/releases/download/v4.8.1/adminer-4.8.1.php -O "adminer.php"  
 ## check adminer latest version.   
-[Adminer - Database management in a single PHP file](https://www.adminer.org/)  
 ```
+[Adminer - Database management in a single PHP file](https://www.adminer.org/)  
+
 ## STEP.2 make directory
 ```
 $ cd /var/www/html/adminer  
