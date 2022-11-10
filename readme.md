@@ -21,7 +21,7 @@ wget  https://github.com/vrana/adminer/releases/download/v4.8.1/adminer-4.8.1.ph
 $ cd /var/www/html/adminer  
 $ mkdir plugins  
 
-## STEP.3
+## STEP.3 get plugin.php  
 ```
 // plugin: Required to run any plugin  
 wget https://raw.github.com/vrana/adminer/master/plugins/plugin.php -O ./plugins/plugin.php  
