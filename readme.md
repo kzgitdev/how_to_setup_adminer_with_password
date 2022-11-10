@@ -27,13 +27,13 @@ $ mkdir plugins
 wget https://raw.github.com/vrana/adminer/master/plugins/plugin.php -O ./plugins/plugin.php  
 ```
 
-## STEP.4
+## STEP.4 get login-password-less.php
 ```
 // login-password-less: Enable login without password (example)  
 wget https://raw.github.com/vrana/adminer/master/plugins/login-password-less.php -O ./plugins/login-password-less.php  
 ```
 
-## STEP.5
+## STEP.5 create index.php for login user
 ```
 // create index.php to login page  
 touch index.php  
