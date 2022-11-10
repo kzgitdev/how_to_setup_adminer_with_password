@@ -16,21 +16,24 @@ wget  https://github.com/vrana/adminer/releases/download/v4.8.1/adminer-4.8.1.ph
 ## check adminer latest version.   
 [Adminer - Database management in a single PHP file](https://www.adminer.org/)  
 ```
-## STEP.2 make directory  
+## STEP.2 make directory
 ```
 $ cd /var/www/html/adminer  
 $ mkdir plugins  
-## STEP.3  
+
+## STEP.3
 ```
 // plugin: Required to run any plugin  
 wget https://raw.github.com/vrana/adminer/master/plugins/plugin.php -O ./plugins/plugin.php  
 ```
-## STEP.4  
+
+## STEP.4
 ```
 // login-password-less: Enable login without password (example)  
 wget https://raw.github.com/vrana/adminer/master/plugins/login-password-less.php -O ./plugins/login-password-less.php  
 ```
-## STEP.5  
+
+## STEP.5
 ```
 // create index.php to login page  
 touch index.php  
