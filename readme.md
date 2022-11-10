@@ -22,17 +22,17 @@ $ cd /var/www/html/adminer
 $ mkdir plugins
 ## STEP.3
 ```
-## plugin: Required to run any plugin
+// plugin: Required to run any plugin
 wget https://raw.github.com/vrana/adminer/master/plugins/plugin.php -O ./plugins/plugin.php
 ```
 ## STEP.4
 ```
-## login-password-less: Enable login without password (example)
+// login-password-less: Enable login without password (example)
 wget https://raw.github.com/vrana/adminer/master/plugins/login-password-less.php -O ./plugins/login-password-less.php
 ```
 ## STEP.5
 ```
-## create index.php to login page
+// create index.php to login page
 touch index.php
 "see code of index.php --- https://github.com/vrana/adminer/blob/master/adminer/sqlite.php ---"
 ```
