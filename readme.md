@@ -1,4 +1,4 @@
-# How to set up the adminer database management tool on your website 
+# How to set up the adminer database management tool on your website to use SQLite3 with password
 
 ## What' adminer
 adminer is database management tool that it supports database format MySQL, Mariadb, SQLite3 and more.  
